@@ -12,18 +12,16 @@ pnpm run dev
 ```
 
 ### 사용 버전
-•	React 19
-•	React Router DOM 7
-•	Vite 7
-•	TypeScript 5.9
-•	Tailwind CSS 4
-•	@tailwindcss/vite plugin
-•	Lucide Icons
-•	Day.js
-•	Lodash
-•	ESLint 9
-•	TypeScript ESLint 8
-•	PostCSS 8 / autoprefixer
+- React 19
+- React Router DOM 7
+- Vite 7
+- TypeScript 5.9
+- Tailwind CSS 4
+- @tailwindcss/vite plugin
+- Lucide Icons / Day.js / Lodash
+- ESLint 9
+- TypeScript ESLint 8
+- PostCSS 8 / autoprefixer
 
 ## 폴더구조
 ```
