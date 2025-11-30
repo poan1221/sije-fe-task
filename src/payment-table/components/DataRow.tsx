@@ -54,7 +54,6 @@ export const DataRow = ({ row, payments }: DataRowProps) => {
                 <div className="flex justify-between min-w-20">
                   <span>$</span>
                   <span>
-                    {" "}
                     {cell.shippedQuantity.toFixed(5).toLocaleString()}
                   </span>
                 </div>
@@ -66,7 +65,7 @@ export const DataRow = ({ row, payments }: DataRowProps) => {
               {cell.amount ? (
                 <div className="flex justify-between min-w-20">
                   <span>$</span>
-                  <span> {cell.amount.toFixed(2).toLocaleString()}</span>
+                  <span>{cell.amount.toFixed(2).toLocaleString()}</span>
                 </div>
               ) : (
                 ""

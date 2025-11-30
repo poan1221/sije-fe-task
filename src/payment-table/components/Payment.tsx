@@ -20,7 +20,7 @@ export function Payment({ payment }: PaymentProps) {
         <div className="flex items-center gap-2">
           <span className="text-[11px]">{formatDate(payment.paidAt)}</span>
           {payment.paidAt && (
-            <span className="bg-violet-100 text-violet-700 px-2 py-0.5 rounded text-xs font-medium">
+            <span className="bg-violet-100 text-violet-700 px-2 py-0.5 rounded text-[10px] font-medium">
               Paid
             </span>
           )}
