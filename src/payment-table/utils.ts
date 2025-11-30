@@ -106,12 +106,6 @@ export function sumAmountMatrix(
   };
 }
 
-/** dayjs 포맷 유틸 (헤더에서 사용) */
-export function formatDate(iso: string | null | undefined) {
-  if (!iso) return "-";
-  return dayjs(iso).format("YYYY.MM.DD");
-}
-
 /** 각 컬럼의 고유값 집합 추출 (셀렉트 옵션용) */
 export function getUniqueOptions(
   rows: PaymentRowViewModel[],

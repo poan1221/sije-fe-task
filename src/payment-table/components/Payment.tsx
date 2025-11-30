@@ -1,5 +1,5 @@
 import type { Payment } from "@/payment-table/types";
-import { formatDate } from "@/payment-table/utils";
+import { formatDate } from "@/utils/formatDate";
 
 interface PaymentProps {
   payment: Payment;
