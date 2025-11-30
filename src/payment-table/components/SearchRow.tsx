@@ -1,4 +1,4 @@
-import { FilterSelect } from "@/payment-table/components/FilterSelect";
+import { SearchSelect } from "@/payment-table/components/SearchSelect";
 import type { Payment } from "@/payment-table/types";
 import React from "react";
 
@@ -32,7 +32,7 @@ export const SearchRow = ({
   return (
     <tr className="bg-slate-50 border-b border-slate-200">
       <td className="px-3 py-2">
-        <FilterSelect
+        <SearchSelect
           value={filters.styleNumber}
           options={options.styleNumbers}
           onChange={(v) => onChange("styleNumber", v)}
@@ -40,14 +40,14 @@ export const SearchRow = ({
       </td>
       <td className="px-3 py-2"></td>
       <td className="px-3 py-2">
-        <FilterSelect
+        <SearchSelect
           value={filters.fabricName}
           options={options.fabricNames}
           onChange={(v) => onChange("fabricName", v)}
         />
       </td>
       <td className="px-3 py-2">
-        <FilterSelect
+        <SearchSelect
           value={filters.fabricColor}
           options={options.fabricColors}
           onChange={(v) => onChange("fabricColor", v)}

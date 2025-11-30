@@ -86,10 +86,6 @@ export const PaymentTable: React.FC = () => {
 
   return (
     <div className="w-full bg-slate-50 p-8">
-      <h2 className="mb-4 text-lg font-semibold text-slate-800">
-        Payment Table
-      </h2>
-
       <PaymentHeader
         showSearch={showSearch}
         onToggleSearch={() => setShowSearch((prev) => !prev)}
@@ -122,13 +118,13 @@ export const PaymentTable: React.FC = () => {
               <th className="border-b border-slate-200 px-3 py-2 text-left min-w-30">
                 Style No.
               </th>
-              <th className="border-b border-slate-200 px-3 py-2 text-left min-w-20">
+              <th className="border-b border-slate-200 px-3 py-2 text-left min-w-28">
                 Supplier Item #
               </th>
-              <th className="border-b border-slate-200 px-3 py-2 text-left min-w-20">
+              <th className="border-b border-slate-200 px-3 py-2 text-left min-w-25">
                 Fabric Name
               </th>
-              <th className="border-b border-slate-200 px-3 py-2 text-left min-w-20">
+              <th className="border-b border-slate-200 px-3 py-2 text-left min-w-25">
                 Fabric Color
               </th>
               <th className="border-b border-slate-200 px-3 py-2 text-right">
