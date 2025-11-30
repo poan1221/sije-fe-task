@@ -1,3 +1,9 @@
+import { PaymentTable } from "@/payment-table/PaymentTable";
+
 export function Home() {
-  return <div className="font-bold">홈----</div>;
+  return (
+    <>
+      <PaymentTable />
+    </>
+  );
 }

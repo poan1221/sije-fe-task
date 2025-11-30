@@ -4,7 +4,7 @@ import { Home } from "@/Home";
 function App() {
   return (
     <Router>
-      <div className="max-w-7xl mx-auto p-4 w-100">
+      <div className="max-w-7xl mx-auto p-4">
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
